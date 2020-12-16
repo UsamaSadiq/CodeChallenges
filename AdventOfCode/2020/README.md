@@ -1,7 +1,6 @@
 # Advent Of Code 2020
 
 ## Summary of the Events/Challenges:
----
 
 ### **Event 01**
 
