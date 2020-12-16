@@ -1,5 +1,11 @@
 # Advent Of Code 2020
 
 ### Summary of the Events/Challenges:
+---
 
 > Event 01: Given a list of numbers, find product of numbers whose sum is given.
+
+> Event 02: Given a list of passwords, find no. of passwords which match its given criteria.
+   - part 1: Given a critera `1-3 a: abcde`, The password policy indicates the lowest and highest number of times a given letter must appear for the password to be valid.
+
+   - part 2: Given a critera `1-3 a: abcde`, The password policy indicates that Exactly one of these positions must contain the given letter.
