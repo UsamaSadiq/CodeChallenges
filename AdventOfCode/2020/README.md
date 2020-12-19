@@ -32,3 +32,9 @@
 ```
    - Given the map, find number of trees encountered using path `(3,1)`.
    - Given the map, find the product of number of trees encountered using paths `(1,1), (3,1), (5,1), (7,1), (1,2)`.
+
+### **Event 04** 
+
+   Given a batch file of passports, find no. of passports which are valid according to the given criteria.
+   - part 1: Given the btach of data, find the number of passports which have all the required fields or only one optional field missing.
+   - part 2: Given the batch of data, find the number of pasports which have all the required fields or onyl one optional field missing. The valid passports also need to pass validations for each field.
