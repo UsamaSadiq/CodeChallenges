@@ -1,0 +1,33 @@
+name: GitHub CI
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  run_quality:
+    name: Quality Check
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ ubuntu-20.04 ]
+        python-version: [ 3.8 ]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install dependencies
+      run: |
+        pip install -U pip
+        pip install black
+
+    - name: Run Black check
+      run: black --check .
