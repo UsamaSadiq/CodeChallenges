@@ -1,7 +1,9 @@
 """
 This program reads all numbers from a given input file.
+
 Finds numbers whose sum is SUM and returns the product of numbers.
 """
+
 from itertools import permutations
 from math import prod
 

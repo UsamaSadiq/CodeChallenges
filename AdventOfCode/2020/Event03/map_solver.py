@@ -1,4 +1,6 @@
 """
+Program to solve map coordinates problem(AdventofCode 2020).
+
 This program reads a part of map from a file, replicates the map to infinite width 
 and finds trees found on the path made by the given directions.
 """
@@ -8,6 +10,7 @@ map2d = [list(line) for line in open(map_file, "r")]
 
 
 def get_tree_count(matrix, steps):
+    """Get count of tree."""
     max_rows = len(matrix)
     max_cols = len(matrix[0]) - 1
     steps_forward, steps_downward = steps

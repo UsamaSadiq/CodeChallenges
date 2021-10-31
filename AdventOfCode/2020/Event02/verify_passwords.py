@@ -1,4 +1,6 @@
 """
+Program to parse passwords.
+
 This program reads a file of passwords and verifies each password
 according to the mentioned criteria for each password
 """

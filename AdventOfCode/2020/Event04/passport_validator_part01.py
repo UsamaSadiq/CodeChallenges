@@ -1,4 +1,6 @@
 """
+Program to validate passports.
+
 This program reads data of some passports from a file
 and validates each of them based on input criteria.
 """
@@ -9,6 +11,7 @@ allowed_missing_fields = ["cid"]
 
 
 def parse_passports(passport_file):
+    """Parse data of given passports."""
     passports = []
     with open(passport_file, "r") as f:
         passport = {}
@@ -26,6 +29,7 @@ def parse_passports(passport_file):
 
 
 def validate_passports(passports, req_fields, allowed_fields):
+    """Validate passports according to criteria."""
     valid_count = 0
     for passport in passports:
         if set(req_fields).issubset(
