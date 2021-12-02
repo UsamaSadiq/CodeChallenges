@@ -17,3 +17,5 @@
 ### Task 01
 - What do you get if you multiply your final horizontal position by your final depth?
 
+### Task 02
+- What do you get if you multiply your final horizontal position by your final depth?
