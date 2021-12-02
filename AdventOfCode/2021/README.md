@@ -10,3 +10,10 @@
 
 ### Task 02
 - How many three-value-sums are larger than the previous three-value-sums?
+
+## Day 02
+- https://adventofcode.com/2021/day/2
+
+### Task 01
+- What do you get if you multiply your final horizontal position by your final depth?
+
